@@ -79,15 +79,15 @@ const heaps = (function heaps_module_loader (default_prioroty_func) {
 // (a, b) => a < b to this closure:  
 }());
 
-function assert(condition, message) {
+/*
+
+SOME BASIC TESTS
+
+function assert (condition, message) {
     if (!condition) {
         throw new Error(message || "Assertion failed");
     }
 }
-
-/*
-
-SOME BASIC TESTS
 
 // 1. Test build_from_array and peek
 let array = [3, 1, 4, 1, 5, 9, 2, 6];
